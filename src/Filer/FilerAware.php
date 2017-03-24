@@ -25,9 +25,9 @@ trait FilerAware
      *
      * @param Filer $filer
      *
-     * @return Filer
+     * @return $this
      */
-    public function setFiler(Filer $filer) : Filer
+    public function setFiler(Filer $filer)
     {
         $this->filer = $filer;
 
