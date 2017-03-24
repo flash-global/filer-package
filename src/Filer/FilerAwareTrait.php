@@ -3,7 +3,7 @@ namespace ObjectivePHP\Package\Filer;
 
 use Fei\Service\Filer\Client\Filer;
 
-trait FilerAware
+trait FilerAwareTrait
 {
     /**
      * @var Filer
