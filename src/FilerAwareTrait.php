@@ -1,5 +1,5 @@
 <?php
-namespace ObjectivePHP\Package\Filer;
+namespace Fei\Service\Filer\Package;
 
 use Fei\Service\Filer\Client\Filer;
 
