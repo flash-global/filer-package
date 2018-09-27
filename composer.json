@@ -1,27 +1,35 @@
 {
-    "name": "fei/filer-package",
-    "description": "Filer client package integration for Objective PHP applications",
-    "type": "library",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Boris Cerati",
-            "email": "bce@opcoding.eu"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Fei\\Service\\Filer\\Package\\": "src/"
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://composer.flash.global"
-        }
-    ],
-    "require": {
-        "objective-php/application": "^1.0",
-        "fei/filer-client": "~1.0"
+  "name": "fei/filer-package",
+  "description": "Filer client package integration for Objective PHP applications",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Yoctu",
+      "email": "contact@yoctu.com",
+      "homepage": "http://yoctu.com/"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fei\\Service\\Filer\\Package\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.flash.global"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.0.18"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "objective-php/application": "^1.0",
+    "fei/filer-client": "~1.0",
+    "squizlabs/php_codesniffer": "*"
+  }
 }
