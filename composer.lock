@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e535f29f18c01331fabb1f25bd59f3e",
+    "content-hash": "d215fa8bbc3ff95dbef031dfe3ae923a",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -616,15 +616,15 @@
         },
         {
             "name": "fei/filer-client",
-            "version": "v1.1.1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/filer-client.git",
-                "reference": "8f0d559fa3b0937e80d819c734bae19363a9edff"
+                "reference": "38c48c6e9ed0eb309cc1d47af3c11325facb166c"
             },
             "require": {
                 "fei/api-client": "^1.1",
-                "fei/filer-common": "~1.2.0"
+                "fei/filer-common": "~2.0.0"
             },
             "require-dev": {
                 "codeception/codeception": "^2.2"
@@ -646,15 +646,15 @@
                 }
             ],
             "description": "Flash applicative Filer - client component",
-            "time": "2018-12-12T20:07:05+00:00"
+            "time": "2018-12-12T23:42:50+00:00"
         },
         {
             "name": "fei/filer-common",
-            "version": "v1.2.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/filer-common.git",
-                "reference": "d280f54454db21c13b98baf31371995a6dbd1a5b"
+                "reference": "6442608030f36c0b673b678a6be3fc0a05322f66"
             },
             "require": {
                 "doctrine/common": "^2.6",
@@ -685,7 +685,7 @@
             "keywords": [
                 "filer"
             ],
-            "time": "2018-12-12T20:05:38+00:00"
+            "time": "2018-12-12T23:38:11+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

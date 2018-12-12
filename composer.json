@@ -33,7 +33,7 @@
   "require": {
     "php": "^7.0",
     "objective-php/application": "^1.0",
-    "fei/filer-client": "~1.1",
+    "fei/filer-client": "~3.0",
     "squizlabs/php_codesniffer": "*"
   }
 }
