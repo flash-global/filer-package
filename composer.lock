@@ -616,11 +616,11 @@
         },
         {
             "name": "fei/filer-client",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/filer-client.git",
-                "reference": "10e89e3b088a2531e065202532e92a3f3f12c09e"
+                "reference": "8f0d559fa3b0937e80d819c734bae19363a9edff"
             },
             "require": {
                 "fei/api-client": "^1.1",
@@ -646,15 +646,15 @@
                 }
             ],
             "description": "Flash applicative Filer - client component",
-            "time": "2018-12-12T19:42:24+00:00"
+            "time": "2018-12-12T20:07:05+00:00"
         },
         {
             "name": "fei/filer-common",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/filer-common.git",
-                "reference": "c82ae5a2592dc57a208f28b9fc2f856e2f7f26b1"
+                "reference": "d280f54454db21c13b98baf31371995a6dbd1a5b"
             },
             "require": {
                 "doctrine/common": "^2.6",
@@ -685,7 +685,7 @@
             "keywords": [
                 "filer"
             ],
-            "time": "2018-12-12T19:29:57+00:00"
+            "time": "2018-12-12T20:05:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
