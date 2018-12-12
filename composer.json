@@ -10,6 +10,16 @@
       "homepage": "http://yoctu.com/"
     }
   ],
+  "repositories": [
+      {
+        "type": "git",
+        "url": "git@github.com:flash-global/filer-client.git"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:flash-global/filer-common.git"
+      }
+  ],
   "autoload": {
     "psr-4": {
       "Fei\\Service\\Filer\\Package\\": "src/"
@@ -23,7 +33,7 @@
   "require": {
     "php": "^7.0",
     "objective-php/application": "^1.0",
-    "fei/filer-client": "~1.0",
+    "fei/filer-client": "~1.1",
     "squizlabs/php_codesniffer": "*"
   }
 }
